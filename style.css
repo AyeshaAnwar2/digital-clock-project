@@ -11,9 +11,19 @@ body{
 
 .container{
     text-align: center;
+    border: 2px solid orange;
+    padding: 40px;
+    border-radius: 40px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 
-
+.container span{
+    font-size: larger;
+    text-transform: uppercase;
+    color: black;
+}
 #clock{
     width: 150px;
     height: 50px;
